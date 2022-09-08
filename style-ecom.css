@@ -1,0 +1,239 @@
+@import url('https://fonts.googleapis.com/css2?family=Kumbh+Sans:wght@400;700&display=swap');
+
+body{
+	margin: 0px;
+	font-family: 'Kumbh Sans', sans-serif;
+	font-size: 16px;
+}
+button{
+	cursor: pointer;
+}
+.container{
+	margin: 0px 164px;
+}
+.title{
+	display: flex;
+    justify-content: space-between;
+	height: 113px;
+	width: 100%;
+	border-bottom: 1px solid #ccc!important;
+	position: relative;
+
+}
+.right-block, .left-block{
+	display: flex;
+	padding: 39px 0px;
+	align-items: center
+}
+.akk > img{
+	height: 50px;
+	cursor: pointer;
+	border-radius: 50%;
+	border: 2px solid transparent;
+}
+.akk > img:hover{
+    border-color: hsl(26, 100%, 55%);
+}
+.menu > a {
+	margin-right: 34px;
+	text-decoration: none;
+	color: #a0a3aa;
+	padding-bottom: 44px;
+}
+.menu > a:hover{
+	color: black;
+	border-bottom: 3px solid hsl(26, 100%, 55%) !important;
+}
+.logo{
+	padding-right: 58px;
+}
+.backet{
+	margin-right: 44px;
+	cursor: pointer;
+	    position: relative;
+}
+.backet.show:after{
+	content: "";
+    position: absolute;
+    display: block;
+    width: 300px;
+    height: 50px;
+    right: -150px;
+    top: 10px;
+}
+.backet-win{
+	display: none;
+	width: 355px;
+	background-color: white;
+	border-radius: 11px;
+	box-shadow: 0px 13px 25px 0px #b3b3b369;
+	position: absolute;
+	right: -175px;
+	margin-top: 30px;
+	z-index: 100;
+}
+.backet.show .backet-win{
+	display: block;
+}
+.cont-win{
+	display: none;
+	height: 100%;
+	color: #9a9ea9;
+	font-weight: 700;
+    justify-content: center;
+    line-height: 185px;
+}
+.title-win{
+	display: flex;
+    align-items: center;
+	height: 55px;
+    border-bottom: 1px solid #ccc !important;
+    padding-left: 24px;
+    font-weight: 700;
+}
+.content{
+	display: flex;
+}
+.product{
+	margin: 90px 0px 0px 45px;
+}
+.main-img{
+	height: 445px;
+    width: 445px;
+    background-color: antiquewhite;
+    border-radius: 11px;
+    overflow: hidden;
+}
+.product-img{
+		display: flex;
+}
+.product-img > img{
+	height: 92px;
+    margin: 26px 26px 0px 0px;
+    border-radius: 12px;
+}
+.product-img > img:nth-child(4n) {
+    margin-right: 0;
+}
+
+.description{
+	height: 445px;
+    width: 445px;
+    margin: 153px 0px 0px 115px;
+
+}
+.button{
+	display: flex;
+}
+.add-cart, .checkout{
+	height: 55px;
+    width: 272px;
+    border-radius: 11px;
+    border: none;
+    background-color: hsl(26, 100%, 55%);
+    color: white;
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 55px;
+}
+.prod-container{
+	display: none;
+}
+.prod-container.show{
+	display: block;
+
+}
+.cont-win.show{
+	display: flex;
+
+}
+.counter{
+	width: 156px;
+    height: 55px;
+    background-color: #f7f8fd;
+    border-radius: 11px;
+    display: flex;
+    justify-content: space-between;
+    margin-right: 1em;
+}
+.counter > button{
+	border: none;
+    background: none;
+    color: #ff7d1a;
+    font-size: 24px;
+    font-weight: bold;
+    height: 55px;
+    width: 40px;
+    text-align: center;
+
+}
+.counter > span{
+	line-height: 55px;
+	font-weight: bold;
+}
+.price{
+	    display: flex;
+}
+.new-price{
+	font-size: 30px;
+    font-weight: bold;
+    padding: 28px 19px 15px 0px;
+}
+.sale{
+	height: 27px;
+    font-size: 12px;
+    background-color: hsl(25, 100%, 94%);
+    margin-top: 32px;
+    border-radius: 5px;
+    color: hsl(26, 100%, 55%);
+    font-weight: bold;
+    line-height: 25px;
+    padding: 0px 8px;
+}
+.old-price{
+	color: #b2b5ba;
+    font-size: 18px;
+    text-decoration: line-through;
+    font-weight: bold;
+    margin: 0px 0px 40px 0px;
+}
+.descript-prod{
+	color: #a0a3aa;
+    margin: 49px 0px 0px;
+    line-height: 24px;
+}
+.name-prod{
+	    font-size: 33px;
+}
+.company{
+	color: hsl(26, 100%, 55%);
+	font-size: 20px;
+}
+.prod{
+	display: flex;
+	padding-bottom: 15px;
+}
+.prod > img:first-child{
+	height: 50px;
+    border-radius: 5px;
+}
+.cont-prod{
+	display: flex;
+    flex-direction: column;
+    margin: 0px 22px 0px 12px;
+}
+.prod > img:last-child{
+	height: 16px;
+    padding-top: 10px;
+}
+.prod-price > span:last-child{
+	font-weight: 700;
+}
+
+.prod-container {
+    padding: 25px 15px;
+}
+
+button.checkout {
+    width: 100%;
+}
